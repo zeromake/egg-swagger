@@ -1,5 +1,5 @@
 {
-  "name": "egg-swagger",
+  "name": "@zeromake/egg-swagger",
   "version": "0.1.0",
   "description": "egg swagger plugin",
   "egg": {

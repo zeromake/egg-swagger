@@ -36,7 +36,7 @@ egg-swagger 版本 | egg 2.x
 // config/plugin.js
 exports.swagger = {
   enable: true,
-  package: 'egg-swagger',
+  package: '@zeromake/egg-swagger',
 };
 ```
 

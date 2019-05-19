@@ -33,7 +33,7 @@ $ npm i egg-swagger --save
 // {app_root}/config/plugin.js
 exports.swagger = {
   enable: true,
-  package: 'egg-swagger',
+  package: '@zeromake/egg-swagger',
 };
 ```
 
