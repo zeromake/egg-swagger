@@ -1,0 +1,16 @@
+{
+  "name": "swagger-test",
+  "version": "0.0.1",
+  "egg": {
+    "typescript": true,
+    "declarations": true
+  },
+  "dependencies": {
+    "egg": "^2.22.2",
+    "egg-bin": "^4.13.0"
+  },
+  "devDependencies": {
+    "swagger-ui-dist": "^3.22.1",
+    "typescript": "^3.4.5"
+  }
+}

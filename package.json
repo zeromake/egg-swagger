@@ -1,0 +1,92 @@
+{
+  "name": "egg-swagger",
+  "version": "0.1.0",
+  "description": "egg swagger plugin",
+  "egg": {
+    "typescript": true,
+    "declarations": true
+  },
+  "typings": "index.d.ts",
+  "eggPlugin": {
+    "name": "swagger"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin"
+  ],
+  "dependencies": {
+    "assert": "^2.0.0",
+    "chokidar": "^3.0.0",
+    "doctrine": "^3.0.0",
+    "glob": "^7.1.4",
+    "koa-compose": "^4.1.0",
+    "koa-range": "^0.3.0",
+    "koa-static-cache": "^5.1.2",
+    "swagger-parser": "^6.0.5",
+    "swagger-ui-dist": "^3.22.1",
+    "ylru": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/assert": "^1.4.2",
+    "@types/chokidar": "^2.1.3",
+    "@types/doctrine": "^0.0.3",
+    "@types/glob": "^7.1.1",
+    "@types/js-yaml": "^3.12.1",
+    "@types/koa-compose": "^3.2.3",
+    "@types/koa-range": "^0.3.2",
+    "@types/koa-static-cache": "^5.1.0",
+    "@types/mkdirp": "^0.5.2",
+    "@types/mocha": "^5.2.6",
+    "@types/swagger-parser": "^4.0.3",
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "codecov": "^3.5.0",
+    "egg": "^2.16.0",
+    "egg-bin": "^4.11.0",
+    "egg-ci": "^1.11.0",
+    "egg-mock": "^3.21.0",
+    "openapi3-ts": "^1.2.0",
+    "prettier": "^1.17.1",
+    "tslint": "^5.16.0",
+    "tslint-config-egg": "^1.0.0",
+    "typescript": "^3.4.5"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "npm run tslint && egg-bin pkgfiles && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "tslint": "tslint {app,config,test,lib}/**/*.ts",
+    "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
+    "pkgfiles": "egg-bin pkgfiles",
+    "autod": "autod",
+    "tsc": "tsc -p tsconfig.json",
+    "format": "prettier --write \"{app,config,test,lib}/**/*.ts\""
+  },
+  "files": [
+    "index.d.ts",
+    "app.ts",
+    "app.js",
+    "lib",
+    "app",
+    "config",
+    "README.md",
+    "README.zh_CN.md"
+  ],
+  "ci": {
+    "version": "8, 10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeromake/egg-swagger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zeromake/egg-swagger/issues"
+  },
+  "homepage": "https://github.com/zeromake/egg-swagger#readme",
+  "author": "zeromake<a390720046@gmail.com>",
+  "license": "MIT"
+}
