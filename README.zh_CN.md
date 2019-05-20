@@ -9,8 +9,8 @@
 
 [npm-image]: https://img.shields.io/npm/v/@zeromake%2Fegg-swagger.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/@zeromake%2Fegg-swagger
-[travis-image]: https://img.shields.io/travis/zeromake/egg-swagger.svg?style=flat-square
-[travis-url]: https://travis-ci.org/zeromake/egg-swagger
+[travis-image]: https://travis-ci.com/zeromake/egg-swagger.svg?branch=master
+[travis-url]: https://travis-ci.com/zeromake/egg-swagger
 [codecov-image]: https://img.shields.io/codecov/c/github/zeromake/egg-swagger.svg?style=flat-square
 [codecov-url]: https://codecov.io/github/zeromake/egg-swagger?branch=master
 [david-image]: https://img.shields.io/david/zeromake/egg-swagger.svg?style=flat-square
