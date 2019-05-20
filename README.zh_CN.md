@@ -7,18 +7,18 @@
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/egg-swagger.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/egg-swagger
-[travis-image]: https://img.shields.io/travis/eggjs/egg-swagger.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-swagger
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-swagger.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-swagger?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-swagger.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-swagger
-[snyk-image]: https://snyk.io/test/npm/egg-swagger/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/egg-swagger
-[download-image]: https://img.shields.io/npm/dm/egg-swagger.svg?style=flat-square
-[download-url]: https://npmjs.org/package/egg-swagger
+[npm-image]: https://img.shields.io/npm/v/@zeromake%2Fegg-swagger.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@zeromake%2Fegg-swagger
+[travis-image]: https://img.shields.io/travis/zeromake/egg-swagger.svg?style=flat-square
+[travis-url]: https://travis-ci.org/zeromake/egg-swagger
+[codecov-image]: https://img.shields.io/codecov/c/github/zeromake/egg-swagger.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/zeromake/egg-swagger?branch=master
+[david-image]: https://img.shields.io/david/zeromake/egg-swagger.svg?style=flat-square
+[david-url]: https://david-dm.org/zeromake/egg-swagger
+[snyk-image]: https://snyk.io/test/npm/@zeromake%2Fegg-swagger/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/@zeromake%2Fegg-swagger
+[download-image]: https://img.shields.io/npm/dm/@zeromake%2Fegg-swagger.svg?style=flat-square
+[download-url]: https://npmjs.org/package/@zeromake%2Fegg-swagger
 
 ## 依赖说明
 
