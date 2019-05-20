@@ -1,4 +1,4 @@
-import range from "koa-range";
+import koaRange from "koa-range";
 import compose from "koa-compose";
 import staticCache from "koa-static-cache";
 import LRU from "ylru";
@@ -99,7 +99,7 @@ export default (options: swaggerConfig, app: Application) => {
     ): Promise<void> {
         const isMatch = ctx.path.startsWith(prefix);
         if (isMatch) {
-            return (range as any)(ctx as any, next);
+            return koaRange(ctx as any, next);
         }
         return next();
     }
